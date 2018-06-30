@@ -1,6 +1,6 @@
 const packageInfo = require('../package.json');
 const request = require('request-promise');
-const queryString = require('query-string');
+const queryString = require('querystring');
 
 const DEFAULT_API_BASE = 'https://samplify.io/slacker/api/v1';
 

@@ -8,3 +8,25 @@
 Install the package with:
 
     npm install samslacker --save
+
+Set `config` values
+
+    {
+        "Services": {
+            "AWS": {
+                "accessKeyId": "",
+                "secretAccessKey": "",
+                "region": "us-east-1"
+            },
+            "SamSlacker": {
+                "Arn": "",
+                "ProjectId": ""
+            }
+        }
+    }
+
+
+Usage:
+
+    const event = require('samslacker-node/lib/event');
+    event.track('Event Triggered', payload);
