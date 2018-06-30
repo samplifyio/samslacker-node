@@ -11,6 +11,6 @@ const track = (event, payload) => {
     })
 }
 
-module.export = {
+module.exports = {
     track
 }
