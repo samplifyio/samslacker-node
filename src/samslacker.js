@@ -2,7 +2,7 @@ const packageInfo = require('../package.json');
 const request = require('request-promise');
 const queryString = require('querystring');
 
-const DEFAULT_API_BASE = 'https://samplify.io/slacker/api/v1';
+const DEFAULT_API_BASE = 'https://slacker.kipwise.com/api/v1';
 
 class SamSlacker {
 
